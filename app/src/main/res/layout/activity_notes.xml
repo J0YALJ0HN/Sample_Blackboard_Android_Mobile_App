@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#1C2331"
+    android:layout_height="match_parent"
+    tools:context=".NotesActivity">
+
+
+    <TextView
+        android:id="@+id/set_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"/>
+
+    <EditText
+        android:id="@+id/edit_text_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_marginTop="5dp"
+        android:hint="Add Note..."
+        android:textColor="@color/white"
+        android:textColorHint="#D3D3D3"
+        android:minHeight="48dp">
+
+    </EditText>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:text="Add Item"
+        android:onClick="addItem"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#3F51B5"
+        android:layout_height="wrap_content">
+
+    </Button>
+
+
+    <EditText
+        android:id="@+id/edit2text_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:hint="Delete Note..."
+        android:textColor="@color/white"
+        android:textColorHint="#D3D3D3"
+        android:minHeight="48dp">
+
+    </EditText>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:text="Remove Item"
+        android:onClick="removeItem"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#3F51B5"
+        android:layout_height="wrap_content">
+
+    </Button>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_id"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Hello World!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

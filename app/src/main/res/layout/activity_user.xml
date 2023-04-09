@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1C2331"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/set_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"/>
+
+    <Button
+        android:id="@+id/notes_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="75dp"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#3F51B5"
+        android:text="Notes Application"
+        android:onClick="NotesActivity"/>
+
+    <Button
+        android:id="@+id/quiz_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="75dp"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#3F51B5"
+        android:text="Quiz Application"
+        android:onClick="QuizActivity"/>
+
+
+    <Button
+        android:id="@+id/calculator_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="75dp"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#3F51B5"
+        android:text="Calculator Application" />
+
+
+    <Button
+        android:id="@+id/colour_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="75dp"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#3F51B5"
+        android:text="Change Background" />
+
+
+    <Button
+        android:id="@+id/dice_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="75dp"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#3F51B5"
+        android:text="Dice Application" />
+
+
+
+</LinearLayout>
